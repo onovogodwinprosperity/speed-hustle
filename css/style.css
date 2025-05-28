@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+}
+/* Container styling  */
+
+.container  {
+    margin: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    /* border: 1px solid black; */
+    
+}
+
+
+.container a {
+    text-decoration: none;
+    color: rgb(12, 39, 12);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Left side styling */
+.container .left{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+   
+
+}
+
+.container.left .logo{
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* Middle style */
+
+.container .middle ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.container .right{
+    background: rgb(0, 88, 0);
+    margin-top: -10px;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.container .right h3 a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+
+
+/* About styling  */
+.about-intro{
+    margin: 20px 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/img1.jpg);
+    padding: 100px 50px;
+    background-size: cover;
+    opacity: 1.0;
+    color: #fff;
+    font-family: 'Impact, Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+
+}
+
+ .about-intro button{
+    background: darkgreen;
+    color: #fff;
+    border: none;
+    padding: 20px 35px;
+    margin: 15px 25px;
+    border-radius: 15px;
+    font-weight: bold;
+ }
+
+
+ /* About item styling */
+
+ .about-items-container{
+    display: flex;
+ }
+ .about-items{
+    margin: 20px 0px;
+    padding: 10px 40px;
+ }
+
+ .about-items .intro{
+    margin: 10px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    font-family: 'Impact, Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    /* border: 1px solid blue; */
+    padding: 15px;
+    word-spacing: -2px;
+
+ }
+
+  .intro h3{
+    font-family: 'Impact, Haettenschweiler, 'Arial Narrow Bold', 'sans-serif;
+    font-weight: bold;
+    text-size-adjust: 10px;
+    /* border: 1px solid blue; */
+    word-spacing: -2px;
+    line-height: 35px;
+  }
+
+
+  .about-items .items{
+    width: 50%;
+    margin: 15px 30px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid blac  k;
+    font-family: Tahoma;
+    line-height: 45px;
+    /* border: 1px solid red; */
+  }
+
+  .about-items .items .item{
+    border-radius: 15px;
+    padding: 20px 10px;
+    background: rgb(5, 34, 77);
+    color: #fff;
+    margin: 15px 50px;
+
+  }
+
+  .about-items .items .item img{
+    padding: 0px 25px;
+    float: left;
+    width: 20vh;
+
+  }
+
+  .items .item h4{
+    font-family: Tahoma;
+    line-height: 20px;
+    padding-left: 20px;
+    /* display: flex; */
+  }
+
+  .item-image{
+    width: 50%;
+    /* border: 1px solid blue; */
+    margin: 10px 30px 50px;
+
+}
+
+.item-image img{
+    width: 100%;
+    border-radius: 40px;
+}
+
+
+/* Investment-packages first div styling */
+.investment-packages{
+    background: rgb(2, 68, 7);
+    /* border: 1px solid red; */
+    text-align: center;
+    color: #fff;
+    font-family: verdana;
+   padding-top: 20px;
+   padding-bottom: 10px;
+}
+
+
+/* Investment-packages second div styling */
+.packages-container-boxes{
+    display: flex;
+    gap: 40px;
+    margin: 100px 100px;
+}
+
+
+/* Investment-packages first div styling */
+.starter-plan, 
+.standard-plan, 
+.premium-plan{
+    background: #fff;
+    color: black;
+    padding: 50px 40px;
+    border-radius: 20px;
+    text-align:left;
+}
+
+.packages-container-boxes ul li{
+    list-style: none;
+    padding: 10px;
+}
+
+
+.packages-container-boxes h3{
+    padding: 0px 0px 30px;
+    text-align: center;
+    font-weight: lighter;
+}
+  
+.packages-container-boxes h4{
+    text-align: center;
+}
+  
+/* packages button styling  */
+.packages-container-boxes button{
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(2, 68, 7);
+    color: rgb(2, 68, 7);
+}
+
+
+/* speed hustle footer  styling */
+.footer{
+    background: #000;
+    color: #fff;
+}
+.footer-list{
+    margin: 0px 50px 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    font-family: Arial;
+    text-align: left;
+    background: #000;
+}
+
+.footer-list .list ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-weight: lighter;
+}
+
+
+
+
+
+
+
+
+    
